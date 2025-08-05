@@ -31,3 +31,12 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Configuration Files ###
+# Exclude local database configurations
+application.properties
+application-dev.properties
+
+# Environment variables
+.env
+.env.local
